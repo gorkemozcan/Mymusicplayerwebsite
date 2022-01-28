@@ -1,6 +1,11 @@
 body{
     background-image: url(cream.png);
 }
+::selection{
+    background-color: rgb(206, 206, 45);
+    color: black;
+}
+
 h2 {
     color: rgb(156, 184, 0);
     font-size: large;

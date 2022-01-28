@@ -2,3 +2,7 @@ body {
     background-image: url(tk.jpg
     );
 }
+::selection{
+    background-color: rgb(206, 206, 45);
+    color: black;
+}

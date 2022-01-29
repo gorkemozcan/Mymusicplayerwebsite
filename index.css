@@ -1,6 +1,7 @@
 body{
     background-color: aliceblue;
-    background-image: url(wutang.jpg);   
+    background-image: url(wutang.jpg);
+    background-size: cover;
 }
 h2 {
     font-size: 5mm;;

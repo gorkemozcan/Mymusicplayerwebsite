@@ -1,6 +1,7 @@
 body {
     background-image: url(tk.jpg
     );
+    background-size: cover;
 }
 ::selection{
     background-color: rgb(206, 206, 45);

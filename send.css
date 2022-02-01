@@ -11,3 +11,7 @@ h2 {
     color: rgb(156, 184, 0);
     font-size: large;
 }
+.send{
+    display: flex;
+    justify-content: space-around;
+}

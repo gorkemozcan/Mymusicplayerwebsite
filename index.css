@@ -1,16 +1,26 @@
 html,body{
+    
     padding: 0%;
     margin: 0%;
 }
+.baslik{
+    
+    
+    padding: 0%;
+    margin: 0%;
+    
+}   
 body{
     background-color: aliceblue;
-    background-image: url(wutang.jpg);
+    background-image: url(tk.jpg);
     background-size: cover;
 }
 h2 {
+    display: flex;
+    justify-content: space-around;
     font-size: 5mm;;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #9cb800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #daff06;
 }
 h3{
     color: rgb(213, 193, 219);
@@ -28,6 +38,8 @@ h1{
 }
 
 .png{
+    display: flex;
+    justify-content: space-evenly;
     padding: 50px 10px 
 }
 

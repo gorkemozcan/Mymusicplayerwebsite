@@ -23,6 +23,7 @@ h2 {
 h3{
     color: rgb(213, 193, 219);
 }
+
 h1{
     display: flex;
     justify-content: space-evenly; 
@@ -54,6 +55,38 @@ ul{ display: flex;
 a{
     text-decoration: none;
 }
+
+.png{
+    float:left;
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+}
+.png>img{
+    height:60px;
+    width:60px;
+    
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.png>img:hover{
+border-radius:0;
+    -moz-transform: scale(1.2) rotate(-711deg) ;
+    -webkit-transform: scale(1.2) rotate(-711deg) ;
+    -o-transform: scale(1.2) rotate(-711deg) ;
+    -ms-transform: scale(1.2) rotate(-711deg) ;
+    transform: scale(1.2) rotate(-711deg) ;
+
+}
+
    
 
     
